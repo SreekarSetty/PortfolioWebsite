@@ -39,7 +39,7 @@ export class ExperienceComponent {
       role: 'Software Engineer',
       duration: 'Jan 2020 - Aug 2022',
       description: [
-        'Developed enterprise banking applications using Java.',
+        'Developed enterprise banking applications using Java and Spring Boot.',
         'Designed REST APIs and backend services.',
         'Optimized SQL queries for better performance.',
         'Worked with Agile Scrum teams.',
