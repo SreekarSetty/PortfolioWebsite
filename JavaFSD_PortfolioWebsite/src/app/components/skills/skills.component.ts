@@ -14,7 +14,7 @@ export class SkillsComponent {
     {
       title: 'Backend',
       skills: [
-        { name: 'Java', level: 95 },
+        { name: 'Java', level: 80 },
         { name: 'Spring Boot', level: 95 },
         { name: 'Spring MVC', level: 90 },
         { name: 'Hibernate', level: 90 },
