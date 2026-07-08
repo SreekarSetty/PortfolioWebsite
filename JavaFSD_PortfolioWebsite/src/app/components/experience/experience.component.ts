@@ -40,7 +40,7 @@ export class ExperienceComponent {
       duration: 'Jan 2020 - Aug 2022',
       description: [
         'Developed enterprise banking applications using Java and Spring Boot.',
-        'Designed REST APIs and backend services.',
+        'Designed REST APIs and backend services in microservice architecture.',
         'Optimized SQL queries and designed Stored Procedures for better performance.',
         'Worked with Agile Scrum teams and business teams.',
         'Participated in code reviews and production support.'
