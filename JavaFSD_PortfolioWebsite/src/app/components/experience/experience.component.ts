@@ -41,7 +41,7 @@ export class ExperienceComponent {
       description: [
         'Developed enterprise banking applications using Java and Spring Boot.',
         'Designed REST APIs and backend services.',
-        'Optimized SQL queries for better performance.',
+        'Optimized SQL queries and designed Stored Procedures for better performance.',
         'Worked with Agile Scrum teams.',
         'Participated in code reviews and production support.'
       ],
