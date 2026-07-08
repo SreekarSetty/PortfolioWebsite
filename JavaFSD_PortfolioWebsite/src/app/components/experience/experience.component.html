@@ -1,1 +1,56 @@
-<p>experience works!</p>
+<section id="experience" class="experience">
+
+    <div class="container">
+
+        <h2>Experience</h2>
+
+        <p class="subtitle">
+            My Professional Journey
+        </p>
+
+        <div class="timeline">
+
+            <div
+                class="timeline-item"
+                *ngFor="let exp of experiences">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <h3>{{exp.role}}</h3>
+
+                    <h4>{{exp.company}}</h4>
+
+                    <span class="duration">
+                        {{exp.duration}}
+                    </span>
+
+                    <ul>
+
+                        <li *ngFor="let item of exp.description">
+                            {{item}}
+                        </li>
+
+                    </ul>
+
+                    <div class="tech-stack">
+
+                        <span
+                            *ngFor="let tech of exp.technologies">
+
+                            {{tech}}
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -36,7 +36,6 @@ export class SkillsComponent {
     {
       title: 'Cloud & DevOps',
       skills: [
-        { name: 'Azure', level: 90 },
         { name: 'AWS', level: 88 },
         { name: 'Docker', level: 90 },
         { name: 'Kubernetes', level: 85 },

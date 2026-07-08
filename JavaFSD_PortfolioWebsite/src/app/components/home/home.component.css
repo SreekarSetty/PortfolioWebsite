@@ -1,6 +1,6 @@
 .hero{
 
-    min-height:100vh;
+    min-height:60vh;
     
     display:flex;
     
@@ -22,6 +22,19 @@
     
     max-width:600px;
     
+    }
+
+    .hero-right {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tech-icon {
+        width: 10px;
+        height: 10px;
     }
     
     .welcome{
@@ -121,9 +134,9 @@
     
     .hero-right img{
     
-    width:350px;
+    width:30px;
     
-    height:350px;
+    height:30px;
     
     border-radius:50%;
     
