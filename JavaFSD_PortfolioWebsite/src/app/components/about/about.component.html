@@ -1,1 +1,68 @@
-<p>about works!</p>
+<section id="about" class="about">
+
+    <div class="container">
+
+        <h2>About Me</h2>
+
+        <p class="subtitle">
+            Get to know me
+        </p>
+
+        <div class="content">
+
+            <div class="about-image">
+
+                <img src="assets/profile.jpeg" alt="Profile">
+
+            </div>
+
+            <div class="about-text">
+
+                <h3>Java Full Stack Developer</h3>
+
+                <p>
+
+                    I'm a passionate Java Full Stack Developer with over 6 years of
+                    experience building scalable enterprise applications using
+                    Java, Spring Boot, Angular, Kafka, Microservices,
+                    Azure and AWS.
+
+                </p>
+
+                <p>
+
+                    I enjoy designing high-performance backend systems,
+                    developing modern responsive frontends,
+                    integrating cloud services,
+                    and exploring Agentic AI using Spring AI and MCP.
+
+                </p>
+
+                <p>
+
+                    I believe in writing clean, maintainable code and continuously
+                    learning new technologies to solve real-world business problems.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="stats">
+
+            <div
+                class="card"
+                *ngFor="let stat of stats">
+
+                <h3>{{stat.value}}</h3>
+
+                <p>{{stat.label}}</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
